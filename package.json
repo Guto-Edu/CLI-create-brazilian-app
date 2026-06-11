@@ -1,0 +1,49 @@
+{
+  "name": "create-brazilian-app",
+  "version": "1.0.0",
+  "description": "CLI para criar projetos Next.js com o Brazilian Starter já configurado",
+  "type": "module",
+  "bin": {
+    "create-brazilian-app": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "start": "node dist/index.js",
+    "prepublishOnly": "npm run build"
+  },
+  "dependencies": {
+    "@clack/prompts": "^0.7.0",
+    "chalk": "^5.3.0",
+    "execa": "^8.0.1",
+    "fs-extra": "^11.2.0",
+    "ora": "^8.0.1",
+    "tiged": "^2.12.7"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^11.0.4",
+    "@types/node": "^20.0.0",
+    "typescript": "^5.4.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "nextjs",
+    "starter",
+    "brasil",
+    "boilerplate",
+    "cli",
+    "create-app",
+    "shadcn",
+    "tailwind",
+    "typescript"
+  ],
+  "author": "Guto-Edu",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Guto-Edu/create-brazilian-app.git"
+  },
+  "homepage": "https://github.com/Guto-Edu/create-brazilian-app#readme"
+}
