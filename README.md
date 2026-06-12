@@ -3,7 +3,7 @@
 CLI para criar projetos Next.js com o [Next.js Brazilian Starter](https://github.com/Guto-Edu/Next.js_Brazilian_Starter) já configurado.
 
 [![npm version](https://img.shields.io/npm/v/create-brazilian-app?style=flat-square&color=4f7ef8)](https://www.npmjs.com/package/create-brazilian-app)
-[![License](https://img.shields.io/github/license/Guto-Edu/create-brazilian-app?style=flat-square)](LICENSE)
+[![License](https://img.shields.io/github/license/Guto-Edu/create-brazilian-app?style=flat-square&color=1769e0)](LICENSE)
 
 ## Uso
 
