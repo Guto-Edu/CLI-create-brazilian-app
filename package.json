@@ -4,8 +4,13 @@
   "description": "CLI para criar projetos Next.js com o Brazilian Starter já configurado",
   "type": "module",
   "bin": {
-    "create-brazilian-app": "./dist/index.js"
+    "create-brazilian-app": "dist/index.js"
   },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
   "scripts": {
     "build": "tsc",
     "dev": "tsc --watch",
@@ -43,7 +48,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Guto-Edu/create-brazilian-app.git"
+    "url": "git+https://github.com/Guto-Edu/create-brazilian-app.git"
   },
   "homepage": "https://github.com/Guto-Edu/create-brazilian-app#readme"
 }
